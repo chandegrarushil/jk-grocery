@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\jkgrocery\\jkgrocery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\client\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|e:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\add_category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\add_category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\add_category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\add_category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\manage_category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\manage_category.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\manage_category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\manage_category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\admin_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\admin_login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\admin.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\client.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\client\\client.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\adminhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\admin\\adminhome.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\client\\signup.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\client\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\client\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D8C4314B-6E39-40EA-AF85-DD84631FBBF3}|jkgrocery\\jkgrocery.csproj|solutionrelative:jkgrocery\\client\\product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "add_category.aspx.cs",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\add_category.aspx.cs",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\add_category.aspx.cs",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\add_category.aspx.cs",
+              "RelativeToolTip": "jkgrocery\\admin\\add_category.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T04:49:00.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admin.Master",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\admin.Master",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\admin.Master",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\admin.Master",
+              "RelativeToolTip": "jkgrocery\\admin\\admin.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-17T03:29:41.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "home.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\home.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\client\\home.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\home.aspx",
+              "RelativeToolTip": "jkgrocery\\client\\home.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T08:25:36.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "cart.aspx.cs",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\cart.aspx.cs",
+              "RelativeDocumentMoniker": "jkgrocery\\client\\cart.aspx.cs",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\cart.aspx.cs",
+              "RelativeToolTip": "jkgrocery\\client\\cart.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T02:59:19.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "add_category.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\add_category.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\add_category.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\add_category.aspx",
+              "RelativeToolTip": "jkgrocery\\admin\\add_category.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-20T05:23:29.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "manage_category.aspx.cs",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\manage_category.aspx.cs",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\manage_category.aspx.cs",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\manage_category.aspx.cs",
+              "RelativeToolTip": "jkgrocery\\admin\\manage_category.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:34:34.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "manage_category.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\manage_category.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\manage_category.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\manage_category.aspx",
+              "RelativeToolTip": "jkgrocery\\admin\\manage_category.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T11:34:31.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "admin_login.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\admin_login.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\admin_login.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\admin_login.aspx",
+              "RelativeToolTip": "jkgrocery\\admin\\admin_login.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-08T14:01:06.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "adminhome.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\adminhome.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\admin\\adminhome.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\admin\\adminhome.aspx",
+              "RelativeToolTip": "jkgrocery\\admin\\adminhome.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-17T03:22:28.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "client.Master",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\client.Master",
+              "RelativeDocumentMoniker": "jkgrocery\\client\\client.Master",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\client.Master",
+              "RelativeToolTip": "jkgrocery\\client\\client.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-17T03:30:01.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\Web.config",
+              "RelativeDocumentMoniker": "jkgrocery\\Web.config",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\Web.config",
+              "RelativeToolTip": "jkgrocery\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-08T02:59:35.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "signup.aspx.cs",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\signup.aspx.cs",
+              "RelativeDocumentMoniker": "jkgrocery\\client\\signup.aspx.cs",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\signup.aspx.cs",
+              "RelativeToolTip": "jkgrocery\\client\\signup.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T13:55:27.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "signin.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\signin.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\client\\signin.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\signin.aspx",
+              "RelativeToolTip": "jkgrocery\\client\\signin.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T08:25:36.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "product.aspx",
+              "DocumentMoniker": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\product.aspx",
+              "RelativeDocumentMoniker": "jkgrocery\\client\\product.aspx",
+              "ToolTip": "E:\\jkgrocery\\jkgrocery\\jkgrocery\\client\\product.aspx",
+              "RelativeToolTip": "jkgrocery\\client\\product.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-13T08:25:37.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="jkgrocery.admin.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+.auto-style4 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    left: 350px;
+    top: 23px;
+    height: 44px;
+             width: 730px;
+         }
+
+       /* .auto-style6 {
+            background-repeat: no-repeat;
+            background-attachment: inherit;
+            position: absolute;
+            left: 1300px;
+            top: 131px;
+            text-decoration: none;
+            height:30px;
+        }
+
+        .login {
+            color: #FFFFFF;
+        }
+        a:hover {
+            color: #000000;
+            background-color:hotpink;
+        }
+        
+        .auto-style7 {
+            width: 1440px;
+            height: 150px;
+        }
+        .auto-style10 {
+            width: 714px;
+        }
+        .auto-style11 {
+            width: 510px;
+        }
+        .auto-style12 {
+            height: 300px;
+        }
+        .auto-style13 {
+            width: 375px;
+        }*/
+
+        ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: gray;
+    width: 100%;
+    box-shadow: 0 2px 5px black;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        display: block;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+    }
+
+        li a:hover {
+            background: #000000;
+            color: white;
+        }
+  
+.foot-panel1 p{
+    text-align:center;
+    background-color:gray;
+    font-size:25px;
+    height:30px;
+    margin-top:15px;
+}
+
+.foot-panel2 p{
+    text-align:center;
+    background-color:black;
+    font-size:30px;
+    color:white;
+    height:35px;
+}
+
+
+    </style>
+</head>
+<body>
+    <%if (Session["admindata"] != null) { } else { Response.Redirect("admin_login.aspx"); }%>
+    <form id="form1" runat="server">
+         <div class="links" style="background-color:black">
+
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style4" ForeColor="white"  Text="Jay Khodiyar Grocery" Font-Bold="True"></asp:Label>
+            
+            <asp:Image ID="Image1" runat="server" Height="120px" Width="250px" style="margin-top:3px;margin-left:3px" ImageUrl="images\lgo.jpg" />     
+              
+        </div>
+         <div class="header" style="background-color:gray">
+                    <ul>
+                        <li><a href="home.aspx"> Home </a></li>
+                        <li><a href="add_category.aspx"> Add Category </a></li>
+                        <li><a href="manage_category.aspx"> Manage Category </a></li>
+                        <li><a href="add_product.aspx"> Add Product </a></li>
+                        <li><a href="manage_product.aspx"> Manage Product </a></li>
+                        <li><a href="view_feedback.aspx"> View Feedback </a></li>
+                        <li><a href="view_user.aspx"> View User </a></li>
+                        <li><a href="view_order.aspx"> View Order </a></li>
+                    </ul>
+          </div>     
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        <div class="footer">
+          <div class="foot-panel1">
+                <p>www.jaykhodiyargrocery.com</p>
+            </div>
+
+            <div class="foot-panel2">
+                    <p>Copyright@2025 || All rights reserved jaykhdiyargrocery.com</p>
+            </div>
+    </div>
+    </form>
+</body>
+</html>

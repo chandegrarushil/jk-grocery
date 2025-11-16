@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="client.master.cs" Inherits="jkgrocery.client.client" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+   <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+.auto-style4 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    left: 350px;
+    top: 23px;
+    height: 44px;
+             width: 730px;
+         }
+
+       /* .auto-style6 {
+            background-repeat: no-repeat;
+            background-attachment: inherit;
+            position: absolute;
+            left: 1300px;
+            top: 131px;
+            text-decoration: none;
+            height:30px;
+        }
+
+        .login {
+            color: #FFFFFF;
+        }
+        a:hover {
+            color: #000000;
+            background-color:hotpink;
+        }
+        
+        .auto-style7 {
+            width: 1440px;
+            height: 150px;
+        }
+        .auto-style10 {
+            width: 714px;
+        }
+        .auto-style11 {
+            width: 510px;
+        }
+        .auto-style12 {
+            height: 300px;
+        }
+        .auto-style13 {
+            width: 375px;
+        }*/
+
+        ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: gray;
+    width: 100%;
+    box-shadow: 0 2px 5px black;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        display: block;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+    }
+
+        li a:hover {
+            background: #000000;
+            color: white;
+        }
+  
+.foot-panel1 p{
+    text-align:center;
+    background-color:gray;
+    font-size:25px;
+    height:30px;
+    margin-top:15px;
+}
+
+.foot-panel2 p{
+    text-align:center;
+    background-color:black;
+    font-size:30px;
+    color:white;
+    height:35px;
+}
+
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div class="links" style="background-color:black;">
+
+            <asp:Label ID="Label1" runat="server" CssClass="auto-style4" ForeColor="white"  Text="Jay Khodiyar Grocery" Font-Bold="True"></asp:Label>
+            
+                 <asp:Image ID="Image1" runat="server" Height="120px" Width="250px" style="margin-top:3px;margin-left:3px" ImageUrl="images\lgo.jpg" />        
+              
+        </div>
+
+        <div class="header" style="background-color:gray;">
+
+                  <%
+                      SqlConnection con = new SqlConnection("Data Source=LAPTOP-VLD6TRKE\\SQLEXPRESS02;Initial Catalog=jaykhodiyar;Integrated Security=True");
+                      SqlCommand cmd= new SqlCommand("select * from tbl_user where user_id='"+Session["userdata"]+"'", con);
+                      con.Open();
+                      SqlDataReader dr1 = cmd.ExecuteReader();
+
+    %>
+             <ul>
+                        <li><a href="home.aspx"> Home </a></li>
+                        <li><a href="product.aspx"> Products </a></li>
+                        <li><a href="aboutus.aspx"> About Us </a></li>
+                        <li><a href="contactus.aspx"> Contact Us </a></li>
+
+                        <% if(Session["userdata"]==null){ %>
+
+                            <li><a href="signin.aspx"> Sign-In </a></li>
+                            <li><a href="signup.aspx"> Sign-Up </a></li>
+
+                        <%} 
+                          else{%>
+
+                        <li><a href="cart.aspx"> My Cart </a></li>
+                        <li><a href="order.aspx"> My Order </a></li>
+                        <li><a href="feedback.aspx"> Feedback </a></li>
+                        <li><a href="logout.aspx"> Logout </a></li>
+                        <li><a href="profile.aspx"> Profile </a></li>
+                            <% while (dr1.Read())
+                                { %>
+                        <p style="font-size:20px; display: block; text-align: center; padding: 10px 30px 10px 30px; font-style:italic; color:white;">Hello! <% Response.Write(dr1["user_name"]); %></p>
+                        <%} %>
+                        <%} %>
+
+                    </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        <div class="footer">
+          <div class="foot-panel1">
+                <p>www.jaykhodiyargrocery.com</p>
+            </div>
+
+            <div class="foot-panel2">
+                    <p>Copyright@2025 || All rights reserved jaykhodiyargrocery.com</p>
+            </div>
+    </div>
+    </form>
+</body>
+</html>

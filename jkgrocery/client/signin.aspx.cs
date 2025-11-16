@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace jkgrocery.client
+{
+    public partial class signin : System.Web.UI.Page
+    {
+        SqlConnection con;
+        SqlCommand cmd;
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            con = new SqlConnection("Data Source=LAPTOP-VLD6TRKE\\SQLEXPRESS02;Initial Catalog=jaykhodiyar;Integrated Security=True");
+        }
+
+        protected void btnsignin_Click(object sender, EventArgs e)
+        {
+            cmd = new SqlCommand("select * from tbl_user where user_email='" + txtname.Text + "' and user_password='" + txtpass.Text + "'", con);
+            con.Open();
+
+            SqlDataReader dr = cmd.ExecuteReader();
+            if ((txtpass.Text == "") || (txtname.Text == ""))
+            {
+                Response.Write("<script>alert('Password and username should not be blank')</script>");
+            }
+            else
+            {
+                if (dr.Read())
+                {
+                    Session["userdata"] = dr[0];
+                    Response.Write("<script>alert('Login Successfully')</script>");
+                    Response.Redirect("cart.aspx");
+                }
+                else
+                {
+                    Response.Write("<script>alert('Invalid Username or password')</script>");
+                }
+            }
+        }
+
+        protected void btncancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("home.aspx");
+        }
+    }
+}
